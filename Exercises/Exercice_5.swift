@@ -18,7 +18,6 @@ extension apiManager {
             let dob = results["dob"] as! [String: Any]
             let birthdate = dob["date"] as! String
             let gender = results["gender"]! as! String
-            print(gender)
             let person = Person(firstname: name["first"]!,
                                 lastname: name["last"]!,
                                 gender: Person.Gender(rawValue: gender)!,

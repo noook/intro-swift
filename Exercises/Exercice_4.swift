@@ -8,9 +8,6 @@
 
 import Foundation
 
-//Faire une class qui a pour nom "ApiManager" elle sera un singleton
-//
-
 class apiManager {
     var baseUrl: String = "https://api.randomuser.me/"
     
